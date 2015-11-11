@@ -36,5 +36,7 @@ public class MD5Utils {
  			return null;
  		}
  	}
-  
+  public static void main(String[] args) {
+    System.out.println(encoderByMd5With32Bit("123456"));
+}
 }

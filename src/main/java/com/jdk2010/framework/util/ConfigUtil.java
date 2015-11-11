@@ -20,8 +20,7 @@ public final class ConfigUtil {
 	 */
 	public ConfigUtil(String pathBaseClassLoader){
 		URL url = ConfigUtil.class.getClassLoader().getResource(pathBaseClassLoader);
-		System.out.println(("加载配置文件 => " +java.net.URLDecoder.decode(url.getPath())));
-		this.init(url);
+ 		this.init(url);
 	}
 	
 	/**
