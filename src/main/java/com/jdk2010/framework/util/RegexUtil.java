@@ -110,7 +110,7 @@ public class RegexUtil {
 	 * @return 是否是IPV4
 	 */
 	public static boolean isIpv4(String ip) {
-		if(StringUtils.isBlank(ip)){
+		if(StringUtil.isBlank(ip)){
 			return false;
 		}
 		String regex = "\\b((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\.((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\.((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\.((?!\\d\\d\\d)\\d+|1\\d\\d|2[0-4]\\d|25[0-5])\\b";

@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
  
-public class IdcardUtils extends StringUtils {
+public class IdcardUtils extends StringUtil {
 
     /** 中国公民身份证号码最小长度。 */
     public static final int CHINA_ID_MIN_LENGTH = 15;
