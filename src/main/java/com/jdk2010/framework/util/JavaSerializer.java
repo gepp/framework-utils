@@ -1,6 +1,3 @@
-/**
- *
- */
 package com.jdk2010.framework.util;
 
 import java.io.ByteArrayInputStream;
@@ -12,7 +9,6 @@ import java.io.ObjectOutputStream;
 /**
  * 标准的 Java 序列化
  *
- * @author winterlau
  */
 public class JavaSerializer{
 
